@@ -22,8 +22,16 @@ Software
 
 Circuit Diagram
 
+xxx
 
-
+| Component                          | Function                                                                                                                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Instrumentation Amplifier           | Amplifies ECG signals with a high signal-to-noise ratio (SNR). Gain is set to 3.13. The high common-mode rejection ratio (CMRR) suppresses common-mode interference, such as mains power noise.          |
+| Potential Divider                   | Generates a 2.5 V virtual ground used as the circuit reference and to bias the body, allowing the ECG signal to remain within the op-amp’s operating range.                                            |
+| Passive High-Pass Filter            | Removes DC offset and low-frequency drift, such as baseline wander from breathing or electrode movement. Cutoff frequency: 0.48 Hz.                                                                    |
+| Second-Order Passive Low-Pass Filter| Attenuates high-frequency noise and muscle artifacts while preserving the ECG frequency band. Cutoff frequency: 48 Hz. Two cascaded stages provide a steeper roll-off.                                 |
+| Voltage Buffer                      | Provides unity gain with high input impedance and low output impedance. Buffers isolate circuit stages, prevent loading effects, and ensure stable signal transfer.                                     |
+| Non-Inverting Amplifier             | Provides additional gain while ensuring the ECG signal stays within the Arduino’s 0–5 V ADC input range. Gain is set to 2201.                                                                          |
 
 
 
