@@ -13,6 +13,7 @@ Hardware
 4.	Operational amplifiers (e.g. MCP604)
 5.	Passive components (resistors, capacitors)
 6.	Breadboards and jumper wires
+
 Software
 1.	Arduino IDE
 2.	Arduino Serial Monitor and Serial Plotter
