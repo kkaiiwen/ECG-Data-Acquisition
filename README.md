@@ -24,7 +24,7 @@ Circuit Diagram
 
 <p align="center">
   <kbd>
-    <img width="660" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/raw/main/ECG Circuit Diagram.jpg">
+    <img width="680" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/raw/main/ECG Circuit Diagram.jpg">
   </kbd>
 </p>
 <p align="center">
@@ -38,7 +38,7 @@ Circuit Diagram
 | Passive High-Pass Filter            | Removes DC offset and low-frequency drift, such as baseline wander from breathing or electrode movement. Cutoff frequency: 0.48 Hz.                                                                    |
 | Second-Order Passive Low-Pass Filter| Attenuates high-frequency noise and muscle artifacts while preserving the ECG frequency band. Cutoff frequency: 48 Hz. Two cascaded stages provide a steeper roll-off.                                 |
 | Voltage Buffer                      | Provides unity gain with high input impedance and low output impedance. Buffers isolate circuit stages, prevent loading effects, and ensure stable signal transfer.                                     |
-| Non-Inverting Amplifier             | Provides additional gain while ensuring the ECG signal stays within the Arduino’s 0–5 V ADC input range. Gain is set to 2201.                                                                          |
+| Non-Inverting Amplifier             | Provides additional gain while ensuring the ECG signal stays within the Arduino’s 0-5 V ADC input range. Gain is set to 2201.                                                                          |
 
 
 
