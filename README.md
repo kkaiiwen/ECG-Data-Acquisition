@@ -24,7 +24,7 @@ Circuit Diagram
 
 <p align="center">
   <kbd>
-    <img width="680" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/raw/main/ECG Circuit Diagram.jpg">
+    <img width="660" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/raw/main/ECG Circuit Diagram.jpg">
   </kbd>
 </p>
 <p align="center">
@@ -40,6 +40,12 @@ Circuit Diagram
 | Voltage Buffer                      | Provides unity gain with high input impedance and low output impedance. Buffers isolate circuit stages, prevent loading effects, and ensure stable signal transfer.                                     |
 | Non-Inverting Amplifier             | Provides additional gain while ensuring the ECG signal stays within the Arduino’s 0-5 V ADC input range. Gain is set to 2201.                                                                          |
 
+## Usage
 
-
+1.	Place electrodes on the left arm, right arm, and the reference electrode on the right leg.
+2.	Connect the Arduino UNO to your PC.
+3.	Upload the ECG Data Acquisition Programme to the Arduino.
+4.	Open the Arduino Serial Monitor at 9600 baud.
+5.	The Arduino samples the ECG signal at 100 Hz using Timer1 interrupt, then the ADC interrupt converts each sample to a 10-bit value (0-1023) and transmits it over the serial port.
+6.	Use the Arduino Serial Plotter or external tools to display the ECG waveform in real time.
 
