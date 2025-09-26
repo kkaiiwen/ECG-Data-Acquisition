@@ -24,7 +24,7 @@ Circuit Diagram
 
 <p align="center">
   <kbd>
-    <img width="460" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/raw/main/ECG Circuit Diagram.jpg">
+    <img width="660" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/raw/main/ECG Circuit Diagram.jpg">
   </kbd>
 </p>
 <p align="center">
