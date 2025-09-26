@@ -22,7 +22,14 @@ Software
 
 Circuit Diagram
 
-xxx
+<p align="center">
+  <kbd>
+    <img width="460" src="https://github.com/kkaiiwen/ECG-Data-Acquisition/blob/main/ECG Circuit Diagram.png">
+  </kbd>
+</p>
+<p align="center">
+    <text> Figure 1: ECG Circuit Diagram </text>
+</p>
 
 | Component                          | Function                                                                                                                                                                                                 |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
