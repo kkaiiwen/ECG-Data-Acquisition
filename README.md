@@ -49,3 +49,4 @@ Circuit Diagram
 5.	The Arduino samples the ECG signal at 100 Hz using Timer1 interrupt, then the ADC interrupt converts each sample to a 10-bit value (0-1023) and transmits it over the serial port.
 6.	Use the Arduino Serial Plotter or external tools to display the ECG waveform in real time.
 
+
