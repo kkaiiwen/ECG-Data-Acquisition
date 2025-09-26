@@ -1,4 +1,4 @@
-# ECG-Data-Acquisition
+# ECG Data Acquisition
 
 ## Description
 
