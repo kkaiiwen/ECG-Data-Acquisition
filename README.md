@@ -7,16 +7,16 @@ An Arduino-based ECG Data Acquisition System programmed in C++ using register-le
 ## Requirements
 
 Hardware
-1.	Arduino UNO (or compatible ATmega328P board)
-2.	ECG electrodes
-3.	Instrumentation amplifier (e.g. AD623)
-4.	Operational amplifiers (e.g. MCP604)
-5.	Passive components (resistors, capacitors)
-6.	Breadboards and jumper wires
+1. Arduino UNO (or compatible ATmega328P board)
+2. ECG electrodes
+3. Instrumentation amplifier (e.g. AD623)
+4. Operational amplifiers (e.g. MCP604)
+5. Passive components (resistors, capacitors)
+6. Breadboards and jumper wires
 
 Software
-1.	Arduino IDE
-2.	Arduino Serial Monitor and Serial Plotter
+1. Arduino IDE
+2. Arduino Serial Monitor and Serial Plotter
 
 ## Circuit Specifications
 
@@ -42,11 +42,11 @@ Circuit Diagram
 
 ## Usage
 
-1.	Place electrodes on the left arm, right arm, and the reference electrode on the right leg.
-2.	Connect the Arduino UNO to your PC.
-3.	Upload the ECG Data Acquisition Programme to the Arduino.
-4.	Open the Arduino Serial Monitor at 9600 baud.
-5.	The Arduino samples the ECG signal at 100 Hz using Timer1 interrupt, then the ADC interrupt converts each sample to a 10-bit value (0-1023) and transmits it over the serial port.
-6.	Use the Arduino Serial Plotter or external tools to display the ECG waveform in real time.
+1. Place electrodes on the left arm, right arm, and the reference electrode on the right leg.
+2. Connect the Arduino UNO to your PC.
+3. Upload the ECG Data Acquisition Programme to the Arduino.
+4. Open the Arduino Serial Monitor at 9600 baud.
+5. The Arduino samples the ECG signal at 100 Hz using Timer1 interrupt, then the ADC interrupt converts each sample to a 10-bit value (0-1023) and transmits it over the serial port.
+6. Use the Arduino Serial Plotter or external tools to display the ECG waveform in real time.
 
 
