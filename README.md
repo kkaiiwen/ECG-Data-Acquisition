@@ -6,7 +6,7 @@ An Arduino-based ECG Data Acquisition System programmed in C++ using register-le
 
 ## Requirements
 
-Hardware
+### Hardware
 1. Arduino UNO (or compatible ATmega328P board)
 2. ECG electrodes
 3. Instrumentation amplifier (e.g. AD623)
@@ -14,13 +14,13 @@ Hardware
 5. Passive components (resistors, capacitors)
 6. Breadboards and jumper wires
 
-Software
+### Software
 1. Arduino IDE
 2. Arduino Serial Monitor and Serial Plotter
 
 ## Circuit Specifications
 
-Circuit Diagram
+### Circuit Diagram
 
 <p align="center">
   <kbd>
